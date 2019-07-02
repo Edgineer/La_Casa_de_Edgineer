@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d50f16b4a059d1f51159aa8f6f2f05bd",
+    "revision": "8f78749845e86ac19b8ee7fd4858c2fe",
     "url": "/La_Casa_de_Edgineer/index.html"
   },
   {
-    "revision": "de3a6b716f9cb20cbc41",
+    "revision": "71547fd1b13a9d46a49b",
     "url": "/La_Casa_de_Edgineer/static/css/main.2cce8147.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/La_Casa_de_Edgineer/static/js/2.3310f33a.chunk.js"
   },
   {
-    "revision": "de3a6b716f9cb20cbc41",
-    "url": "/La_Casa_de_Edgineer/static/js/main.a7475740.chunk.js"
+    "revision": "71547fd1b13a9d46a49b",
+    "url": "/La_Casa_de_Edgineer/static/js/main.0a8f56d1.chunk.js"
   },
   {
     "revision": "61906724ae226109c870",
