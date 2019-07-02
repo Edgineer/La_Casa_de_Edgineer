@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "599cc0de6142553b194bb08d85583997",
+    "revision": "d50f16b4a059d1f51159aa8f6f2f05bd",
     "url": "/La_Casa_de_Edgineer/index.html"
   },
   {
-    "revision": "9974bb8e408845e7fb1e",
+    "revision": "de3a6b716f9cb20cbc41",
     "url": "/La_Casa_de_Edgineer/static/css/main.2cce8147.chunk.css"
   },
   {
-    "revision": "2e0129063922e3bb197a",
-    "url": "/La_Casa_de_Edgineer/static/js/2.b41502e9.chunk.js"
+    "revision": "2315f74ce3c99316133d",
+    "url": "/La_Casa_de_Edgineer/static/js/2.3310f33a.chunk.js"
   },
   {
-    "revision": "9974bb8e408845e7fb1e",
-    "url": "/La_Casa_de_Edgineer/static/js/main.2b7de6f7.chunk.js"
+    "revision": "de3a6b716f9cb20cbc41",
+    "url": "/La_Casa_de_Edgineer/static/js/main.a7475740.chunk.js"
   },
   {
     "revision": "61906724ae226109c870",
