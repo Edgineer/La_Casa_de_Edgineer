@@ -1,32 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Sound from 'react-sound';
+import Wrapper from './components/Wrapper';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Title from './components/Title';
+import Grid from './components/Grid';
+import ButtonRow from './components/ButtonRow';
+import ButtonBoarder from './components/ButtonBoarder';
+import Button from "./components/Button";
 
 function App() {
   return (
-    <div className="workin">
-      <header className="workin-head">
-        Hello, Thanks for visiting
-      </header>
-      The site is being constructed
-    </div>
+    <Wrapper>
+      <Header>Edgar Lopez</Header>
+      <Title>Aspiring Software Engineer</Title>
+      <Title>UCLA Computer Science June 2020</Title>
+      <Grid>
+      <ButtonRow>
+        <ButtonBoarder left="left">
+          <Button>About Me</Button>
+        </ButtonBoarder>
+        <ButtonBoarder right="right">
+          <Button>Portfolio</Button>
+        </ButtonBoarder>
+      </ButtonRow>
+      <ButtonRow>
+        <ButtonBoarder left="left">
+          <Button>Resume</Button>
+        </ButtonBoarder>
+        <ButtonBoarder right="right">
+          <Button>Interests</Button>
+        </ButtonBoarder>
+      </ButtonRow>
+      </Grid>
+      <Footer>Here is where all the social media link icons go</Footer>
+    </Wrapper>
 
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
