@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.js": "/La_Casa_de_Edgineer/static/js/main.d3ef6490.chunk.js",
-    "main.js.map": "/La_Casa_de_Edgineer/static/js/main.d3ef6490.chunk.js.map",
+    "main.js": "/La_Casa_de_Edgineer/static/js/main.7280abfc.chunk.js",
+    "main.js.map": "/La_Casa_de_Edgineer/static/js/main.7280abfc.chunk.js.map",
     "runtime~main.js": "/La_Casa_de_Edgineer/static/js/runtime~main.faf734d7.js",
     "runtime~main.js.map": "/La_Casa_de_Edgineer/static/js/runtime~main.faf734d7.js.map",
-    "static/js/2.d87cba4f.chunk.js": "/La_Casa_de_Edgineer/static/js/2.d87cba4f.chunk.js",
-    "static/js/2.d87cba4f.chunk.js.map": "/La_Casa_de_Edgineer/static/js/2.d87cba4f.chunk.js.map",
+    "static/js/2.520bc7d6.chunk.js": "/La_Casa_de_Edgineer/static/js/2.520bc7d6.chunk.js",
+    "static/js/2.520bc7d6.chunk.js.map": "/La_Casa_de_Edgineer/static/js/2.520bc7d6.chunk.js.map",
     "index.html": "/La_Casa_de_Edgineer/index.html",
-    "precache-manifest.07819e40456328f2c9879106a80779d9.js": "/La_Casa_de_Edgineer/precache-manifest.07819e40456328f2c9879106a80779d9.js",
+    "precache-manifest.1b3cfda58ceda81ab9284a45f1a20d84.js": "/La_Casa_de_Edgineer/precache-manifest.1b3cfda58ceda81ab9284a45f1a20d84.js",
     "service-worker.js": "/La_Casa_de_Edgineer/service-worker.js",
+    "static/media/profile-circ.gif": "/La_Casa_de_Edgineer/static/media/profile-circ.e40a6394.gif",
     "static/media/stadium.png": "/La_Casa_de_Edgineer/static/media/stadium.d12afb57.png"
   }
 }

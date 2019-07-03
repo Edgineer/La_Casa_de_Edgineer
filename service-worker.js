@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/La_Casa_de_Edgineer/precache-manifest.07819e40456328f2c9879106a80779d9.js"
+  "/La_Casa_de_Edgineer/precache-manifest.1b3cfda58ceda81ab9284a45f1a20d84.js"
 );
 
 self.addEventListener('message', (event) => {
