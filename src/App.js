@@ -1,10 +1,14 @@
 import React from 'react';
 import Home from './components/Home';
 
-function App() {
-  return (
-    <Home></Home>
-  );
-}
+export default class App extends React.Component {
+  constructor(props){
+    super(props);
+  }
 
-export default App;
+  render() {
+    return (
+      <Home></Home>
+    );
+  }
+}

@@ -9,7 +9,7 @@
     "react-sound": "^1.2.0",
     "styled-components": "^4.3.2"
   },
-  "homepage": "http://edgineer.github.io/La_Casa_de_Edgineer",
+  "homepage": "http://edgineer.me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

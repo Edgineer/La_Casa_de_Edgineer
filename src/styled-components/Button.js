@@ -18,8 +18,6 @@ const Button = styled.button`
     background-color: rgb(255,255,255,0.9);
     color: black;
     }
-
-
 `;
 
 export default Button;
