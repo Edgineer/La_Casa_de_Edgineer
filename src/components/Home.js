@@ -27,7 +27,7 @@ export default class Home extends React.Component {
             </ButtonRow>
             <ButtonRow>
                 <ButtonBoarder left="left">
-                <a href='/../public/../elopez_swe_resume.pdf' target="_blank">
+                <a href='/../public/../elopez-swe-resume.pdf' target="_blank">
                 <Button>Resume</Button>
                 </a>
                 </ButtonBoarder>
