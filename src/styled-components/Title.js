@@ -7,7 +7,7 @@ const Title = styled.div`
     font-family: Karla, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 700;
-    color: white;
+    color: black;
 `;
 
 export default Title;

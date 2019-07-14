@@ -8,7 +8,7 @@ const ButtonBoarder = styled.td`
     font-family: Karla, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 700;
-    color: white;
+    color: black;
 `;
 
 export default ButtonBoarder;

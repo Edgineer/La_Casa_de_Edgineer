@@ -1,6 +1,4 @@
 import React from 'react';
-import Wrapper from "../styled-components/Wrapper";
-import soloPitch from "../images/solo-pitch.png";
 import HomePath from "../styled-components/HomePath";
 import HomeIcon from "../images/iconhome.svg";
 import Title from '../styled-components/Title';
@@ -19,12 +17,12 @@ export default class About extends React.Component {
 
     render() {
         return(
-            <Wrapper background={soloPitch}>
+            <>
                 <HomePath type="submit" homeicon={HomeIcon} onClick={this.myalert}/>
             <Title>
                 About Me
             </Title>
-            </Wrapper>
+            </>
         )
     }
 }

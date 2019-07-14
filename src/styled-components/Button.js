@@ -11,7 +11,7 @@ const Button = styled.button`
     font-size: 24px;
     border-radius: 21px;
     padding: 32px 16px;
-    color: white;
+    color: black;
     text-align: center;
     display: inline-block;
     &:hover {
