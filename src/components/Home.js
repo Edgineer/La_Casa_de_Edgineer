@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Wrapper from '../styled-components/Wrapper';
 import Header from './Header';
 import Footer from '../styled-components/Footer';
@@ -6,6 +7,8 @@ import Grid from '../styled-components/Grid';
 import ButtonRow from '../styled-components/ButtonRow';
 import ButtonBoarder from '../styled-components/ButtonBoarder';
 import Button from "../styled-components/Button";
+import GithubIcon from "../images/icongithub.svg";
+import stadium from '../images/stadium.png';
 
 export default class Home extends React.Component {
     constructor(props){
@@ -14,12 +17,21 @@ export default class Home extends React.Component {
 
     render() {
         return (
-            <Wrapper>
+            <Wrapper background={stadium}>
             <Header></Header>
             <Grid>
             <ButtonRow>
                 <ButtonBoarder left="left">
-                <Button>About Me</Button>
+                    <Button>
+                        <Link to="/about" 
+                            style={{
+                                fontWeight: "bold",
+                                color: "white"
+                            }}
+                        >
+                        About Me
+                        </Link>
+                    </Button>
                 </ButtonBoarder>
                 <ButtonBoarder right="right">
                 <Button>Portfolio</Button>
@@ -36,8 +48,21 @@ export default class Home extends React.Component {
                 </ButtonBoarder>
             </ButtonRow>
             </Grid>
-            <Footer>Here is where all the social media link icons go</Footer>
+            <Footer>
+                <table>
+                    <tr>
+                        <td>
+                            <Button>
+                               <img src={GithubIcon} alt="Github"/> 
+                            </Button>
+                        </td>
+                    </tr>
+                </table>
+            </Footer>
             </Wrapper>
         );
     }
 }
+
+//C:\Users\Edgineer\Documents\Side_Projects\La_Casa_de_Edgineer\src\components\Home.js
+//C:\Users\Edgineer\Documents\Side_Projects\La_Casa_de_Edgineer\src\images\icongithub.svg

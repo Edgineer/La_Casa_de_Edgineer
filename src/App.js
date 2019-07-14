@@ -1,14 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Route} from "react-router-dom";
 import Home from './components/Home';
+import About from './components/About';
+//import Portfolio './components/Portfolio';
+//import Interests from './components/Interests';
 
-export default class App extends React.Component {
-  constructor(props){
-    super(props);
-  }
-
-  render() {
-    return (
-      <Home></Home>
-    );
-  }
+function App(){
+  return (
+    <Router>
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/about" component={About}/>
+    </Router>
+  );
 }
+
+export default App;
+
+//<Route exact path="/portfolio" component={Portfolio}/>
+//<Route exact path="/interests" component={Interests}/>
