@@ -1,26 +1,39 @@
 import React from 'react';
-import { Nav, NavItem} from "shards-react";
 import { Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "shards-ui/dist/css/shards.min.css"
+import { Menu, Icon } from 'antd';
+import 'antd/dist/antd.css'; 
 
 function Navbar () {
     return (
-        <Nav justified>
-        <NavItem>
-            <Link to="/"> Home </Link>
-        </NavItem>
-        <NavItem>
-            <Link to="/about"> About Me </Link>
-        </NavItem>
-        <NavItem>
-            <Link to="/portfolio"> Portfolio </Link>
-        </NavItem>
-        <NavItem>
-            <Link to="/interests"> Interests </Link>
-        </NavItem>
-    </Nav>
+        <Menu mode="horizontal">
+        <Menu.Item key="home">
+        <Link to="/">
+            <Icon type="home"/>
+            Home
+        </Link>
+        </Menu.Item>
+
+        <Menu.Item key="about">
+        <Link to="/about">
+            <Icon type="user"/>
+            About Me
+        </Link>
+        </Menu.Item>
+        
+        <Menu.Item key="portfolio">
+        <Link to="/portfolio">
+            <Icon type="appstore"/>
+            Portfolio
+        </Link>
+        </Menu.Item>
+
+        <Menu.Item key="interests">
+        <Link to="/interests">
+            <Icon type="smile"/>
+            Interests
+        </Link>
+        </Menu.Item>
+        </Menu>
     );
 }
-
 export default Navbar;

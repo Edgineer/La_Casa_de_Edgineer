@@ -1,24 +1,23 @@
 import React from 'react';
-
+import Temp from '../styled-components/Temp.style';
 import Navbar from './Navbar';
 import Bottom from './Bottom';
 import { Layout, Spin } from 'antd';
-import Temp from '../styled-components/Temp.style';
 const { Content } = Layout;
 
-
-function About () {
+function Portfolio () {
     return(
     <Layout style={{height:"100vh"}}>
         <Navbar></Navbar>
         <Content>
-            <Temp>
+        <Temp>
             <Spin size="large"></Spin>
             <p>Working on developing this part of the page!</p>
-            </Temp>
+        </Temp>
         </Content>
         <Bottom></Bottom>
     </Layout>
     );
 }
-export default About;
+
+export default Portfolio;
