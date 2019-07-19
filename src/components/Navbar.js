@@ -5,7 +5,10 @@ import 'antd/dist/antd.css';
 
 function Navbar () {
     return (
-        <Menu mode="horizontal">
+        <Menu 
+            mode="horizontal"
+            style={{ lineHeight: '64px' }}
+        >
         <Menu.Item key="home">
         <Link to="/">
             <Icon type="home"/>
@@ -36,4 +39,5 @@ function Navbar () {
         </Menu>
     );
 }
+
 export default Navbar;

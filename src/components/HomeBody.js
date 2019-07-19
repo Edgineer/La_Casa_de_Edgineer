@@ -1,41 +1,37 @@
 import React from 'react';
-import MidStyle from '../styled-components/MidStyle';
-import Profile from "../styled-components/Profile";
+import {HomeHeader, HomeSubheader, HomeWrapper, Downloader, ProfilePic} from '../styled-components/Home.style';
 import profilepic from "../images/profile-circ.gif";
 import resume from "../images/elopez-swe-resume.pdf";
-
-import { Typography, Button } from 'antd';
-const { Paragraph } = Typography;
-
-
-const content = (
-    <>
-      <Paragraph>
-        Edgar Lopez
-      </Paragraph>
-      <Paragraph>
-        Aspiring Software Developer
-      </Paragraph>
-      <Paragraph>
-        UCLA Computer Science Undergrad
-      </Paragraph>
-      <a href={resume} target="_blank" rel="noopener noreferrer">
-      <Button type="primary" icon="download" size="large">
-          Resume
-      </Button>
-      </a>
-    </>
-);
+import { Row, Col, Button } from 'antd';
 
 function HomeBody () {
     return (
-    <MidStyle>
-    <Profile
-        src={profilepic}
-        alt="Edgar Lopez Profile Picture"      
-    />
-    {content} 
-    </MidStyle>
+    <HomeWrapper>
+      <Row>
+        <Col span={16}>
+          <Row justify="center">
+            <HomeHeader>Edgar Lopez</HomeHeader>
+            <HomeSubheader>
+              Software Developer in training
+              <br></br>
+              Rising Senior at UCLA Computer Science 
+            </HomeSubheader>
+          </Row>
+        </Col>
+        <Col span={8}>
+          <ProfilePic src={profilepic} alt="Edgar Lopez Profile Picture"/>
+        </Col>
+      </Row>
+      <Row type="flex" align="bottom">
+        <Col span={8}>
+            <Downloader href={resume} target="_blank" rel="noopener noreferrer">
+              <Button type="primary" icon="download" size="large">
+                Resume
+              </Button>
+            </Downloader>
+        </Col>
+      </Row>
+    </HomeWrapper>
     );
 }
 

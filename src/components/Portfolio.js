@@ -1,22 +1,21 @@
 import React from 'react';
-import Temp from '../styled-components/Temp.style';
-import Navbar from './Navbar';
+import NavBar from './Navbar';
 import Bottom from './Bottom';
-import { Layout, Spin } from 'antd';
-const { Content } = Layout;
+import PortfolioBody from './PortfolioBody.';
+import { Layout } from 'antd';
+const { Header, Content } = Layout;
 
 function Portfolio () {
     return(
-    <Layout style={{height:"100vh"}}>
-        <Navbar></Navbar>
-        <Content>
-        <Temp>
-            <Spin size="large"></Spin>
-            <p>Working on developing this part of the page!</p>
-        </Temp>
+        <Layout style={{height:"100vh"}}>
+        <Header style={{backgroundColor:"white"}}>
+            <NavBar></NavBar>
+        </Header>
+        <Content style={{overflow:"auto"}}>
+            <PortfolioBody></PortfolioBody>
         </Content>
-        <Bottom></Bottom>
-    </Layout>
+        <Bottom style={{position:"absoulte", Bottom:"0px"}}></Bottom>
+        </Layout>
     );
 }
 

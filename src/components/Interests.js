@@ -3,20 +3,22 @@ import Temp from '../styled-components/Temp.style';
 import Navbar from './Navbar';
 import Bottom from './Bottom';
 import { Layout, Spin } from 'antd';
-const { Content } = Layout;
+const { Header, Content } = Layout;
 
 function Interests () {
     return(
-    <Layout style={{height:"100vh"}}>
-        <Navbar></Navbar>
-        <Content>
-        <Temp>
+        <Layout style={{height:"100vh"}}>
+        <Header style={{backgroundColor:"white"}}>
+            <Navbar></Navbar>
+        </Header>
+        <Content style={{overflow:"auto"}}>
+            <Temp>
             <Spin size="large"></Spin>
             <p>Working on developing this part of the page!</p>
-        </Temp>
+            </Temp>
         </Content>
-        <Bottom></Bottom>
-    </Layout>
+        <Bottom style={{position:"absoulte", Bottom:"0px"}}></Bottom>
+        </Layout>
     );
 }
 

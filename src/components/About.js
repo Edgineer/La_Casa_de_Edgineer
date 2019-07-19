@@ -1,24 +1,22 @@
 import React from 'react';
-
 import Navbar from './Navbar';
 import Bottom from './Bottom';
-import { Layout, Spin } from 'antd';
-import Temp from '../styled-components/Temp.style';
-const { Content } = Layout;
+import AboutBody from "./AboutBody";
+import { Layout } from 'antd';
+const { Header, Content } = Layout;
 
 
 function About () {
     return(
-    <Layout style={{height:"100vh"}}>
-        <Navbar></Navbar>
-        <Content>
-            <Temp>
-            <Spin size="large"></Spin>
-            <p>Working on developing this part of the page!</p>
-            </Temp>
-        </Content>
+        <Layout style={{height:"100vh"}}>
+            <Header style={{backgroundColor:"white"}}>
+                <Navbar></Navbar>
+            </Header>
+            <Content style={{overflow:"auto"}}>
+                <AboutBody></AboutBody>
+            </Content>
         <Bottom></Bottom>
-    </Layout>
+        </Layout>
     );
 }
 export default About;

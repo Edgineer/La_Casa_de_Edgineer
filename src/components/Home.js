@@ -1,23 +1,21 @@
 import React from 'react';
-import NavBar from "./Navbar";
+import Navbar from "./Navbar";
 import HomeBody from './HomeBody';
 import Bottom from './Bottom';
-
 import { Layout } from 'antd';
-
-const { Content } = Layout;
-
-
+const { Header, Content } = Layout;
 
 function Home () {
     return (
-    <Layout style={{height:"100vh"}}>
-        <NavBar></NavBar>
-        <Content>
+        <Layout style={{height:"100vh"}}>
+        <Header style={{backgroundColor:"white"}}>
+            <Navbar></Navbar>
+        </Header>
+        <Content style={{overflow:"auto"}}>
             <HomeBody></HomeBody>
         </Content>
         <Bottom></Bottom>
-    </Layout>
+        </Layout>
     );
 }
 

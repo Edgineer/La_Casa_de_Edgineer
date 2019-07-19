@@ -1,0 +1,4 @@
+export const ABOUT_TITLE = "Bienvenido";
+export const ABOUT_INTRO = "Hola soy Edgar Lopez, First generation Mexican-American de Los Angeles,California";
+export const ABOUT_PAR1 = "I'm passionate about addressing pressing issues through data analysis, product design, and developing software based solutions. I'm interested in collaborating with professionals from varying industries and gaining new insights.";
+export const ABOUT_PAR2 = "When not developing, you can catch me watching Futbol or at a nearby concert. I also enjoy picking up new skills and spending time learning random things that catch my attention (see interests).";

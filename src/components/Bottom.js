@@ -4,10 +4,7 @@ import { Button, Divider } from 'antd';
 
 function Bottom () {
     return (
-        <Footer 
-            theme="dark"
-            style={{ textAlign: 'center' }}
-        >
+        <Footer>
             <p>Interested in collaborating? Feel free to reach out! elopez42@ucla.edu</p>
             
             <Button
